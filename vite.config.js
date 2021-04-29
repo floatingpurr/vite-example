@@ -6,7 +6,7 @@ const dist = '../dist';
 export default {
     root: `${src}`,
     build: {
-      outDir: '../dist' // Specify the output directory (relative to project root).
+      outDir: `${dist}` // Specify the output directory (relative to project root).
     }
   }
   
